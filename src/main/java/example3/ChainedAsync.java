@@ -6,6 +6,9 @@ import java.util.concurrent.TimeUnit;
 
 import example1.ExampleService;
 
+/**
+ * Taken from https://stackoverflow.com/questions/53774471/completablefuture-not-working-as-expected
+ */
 public class ChainedAsync {
 
 	public static void main(String... argv) throws ExecutionException, InterruptedException {

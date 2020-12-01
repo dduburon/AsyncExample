@@ -5,6 +5,9 @@ import java.util.concurrent.ExecutionException;
 
 import org.apache.commons.math3.primes.Primes;
 
+/**
+ * Taken from https://stackoverflow.com/questions/826212/java-executors-how-to-be-notified-without-blocking-when-a-task-completes
+ */
 public class PrimesExample {
 
 	public static void main(String[] args) throws InterruptedException, ExecutionException {

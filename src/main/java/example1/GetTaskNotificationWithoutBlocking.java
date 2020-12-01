@@ -2,6 +2,9 @@ package example1;
 
 import java.util.concurrent.CompletableFuture;
 
+/**\
+ * Taken from https://stackoverflow.com/questions/826212/java-executors-how-to-be-notified-without-blocking-when-a-task-completes
+ */
 public class GetTaskNotificationWithoutBlocking {
 
 	public static void main(String... argv) throws Exception {
